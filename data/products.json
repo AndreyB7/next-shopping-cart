@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Course Name First",
+    "sku": "sku_cource_1",
+    "price": 220,
+    "image": "/cource-placeholder@4x.jpg",
+    "currency": "USD"
+  },
+  {
+    "name": "Course Name Second",
+    "sku": "sku_cource_2",
+    "price": 120,
+    "image": "/cource-placeholder@4x.jpg",
+    "currency": "USD"
+  }
+]
