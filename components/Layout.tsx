@@ -9,7 +9,7 @@ type Props = {
 
 const Layout = ({
   children,
-  title = "TypeScript Next.js Stripe Example",
+  title = "LMS Shopping Cart",
 }: Props) => (
   <>
     <Head>
@@ -18,14 +18,14 @@ const Layout = ({
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@thorwebdev" />
-      <meta name="twitter:title" content="TypeScript Next.js Stripe Example" />
+      <meta name="twitter:title" content="LMS Shopping Cart" />
       <meta
         name="twitter:description"
-        content="Full-stack TypeScript example using Next.js, react-stripe-js, and stripe-node."
+        content=""
       />
       <meta
         name="twitter:image"
-        content="https://nextjs-typescript-react-stripe-js.vercel.app/social_card.png"
+        content="/cource-placeholder@4x.jpg"
       />
       <link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
     </Head>
