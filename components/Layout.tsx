@@ -5,11 +5,13 @@ import Link from "next/link";
 type Props = {
   children: ReactNode;
   title?: string;
+  company?: string | string[];
 };
 
 const Layout = ({
   children,
   title = "LMS Shopping Cart",
+  company = "",
 }: Props) => (
   <>
     <Head>
@@ -40,7 +42,7 @@ const Layout = ({
           <h1>
             <span className="light">LMS Shopping Cart</span>
             <br />
-            Stripe
+            Company: {company}
           </h1>
         </div>
       </header>
