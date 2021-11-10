@@ -15,7 +15,7 @@ const Products = () => {
             height={200}
           />
           <h3>{product.name}</h3>
-          <p className="price">
+          <p className="price" suppressHydrationWarning>
             {formatCurrencyString({
               value: product.price,
               currency: product.currency,

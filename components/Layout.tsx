@@ -42,7 +42,7 @@ const Layout = ({
           <h1>
             <span className="light">LMS Shopping Cart</span>
             <br />
-            Company: {company}
+            Company:<br/> {company || 'not specified' }
           </h1>
         </div>
       </header>

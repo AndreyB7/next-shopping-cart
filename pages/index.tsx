@@ -7,7 +7,7 @@ const IndexPage: NextPage = () => {
     <Layout title="Home">
         <ul className="card-list">
           <li>
-            <Link href="/cart">
+            <Link href="/cart/?c=paktolus">
               <a className="card cart-style-background">
                 <img src="/use-shopping-cart.png" />
                 <h2 className="bottom">Use Shopping Cart</h2>

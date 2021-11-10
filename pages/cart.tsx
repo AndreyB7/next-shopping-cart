@@ -16,7 +16,7 @@ const CartPage: NextPage = () => {
           <hr/>
           <CartSummary />
         </Cart>
-        <pre>{JSON.stringify(router.query)}</pre>
+        <pre>Query params:<br/>{JSON.stringify(router.query)}</pre>
     </Layout>
   )
 }
