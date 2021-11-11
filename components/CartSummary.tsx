@@ -63,6 +63,7 @@ const CartSummary = () => {
         Clear Cart
       </button>
       <StripeTestCards />
+      <pre>{JSON.stringify(cartDetails, null, 2)}</pre>
     </form>
   );
 };
