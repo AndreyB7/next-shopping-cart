@@ -4,7 +4,7 @@ module.exports = (phase, { defaultConfig }) => {
    */
   const nextConfig = {
     images: {
-      domains: ['localhost', 'example2.com'],
+      domains: ['localhost', 's3.amazonaws.com'],
     },
   }
   return nextConfig

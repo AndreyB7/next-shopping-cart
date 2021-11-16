@@ -1,16 +1,8 @@
-[
-  {
-    "name": "Course Name First",
-    "sku": "sku_cource_1",
-    "price": 220,
-    "image": "/cource-placeholder@4x.jpg",
-    "currency": "USD"
-  },
-  {
-    "name": "Course Name Second",
-    "sku": "sku_cource_2",
-    "price": 120,
-    "image": "/cource-placeholder@4x.jpg",
-    "currency": "USD"
-  }
-]
+[{
+	"section_id": "1",
+	"section_name": "Amerikooler Instalation Course",
+	"section_desc": "This is sample amrikooler course",
+	"price": 90,
+	"course_image": "https://s3.amazonaws.com/cdl_assets/claass_a_img.png",
+	"currency": "USD"
+}]
