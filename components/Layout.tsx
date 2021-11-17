@@ -40,10 +40,9 @@ const Layout = ({
             </a>
           </Link>
           <h1>
-            <span className="light">LMS Shopping Cart</span>
-            <br />
-            Company:<br/> {company || 'not specified' }
+            <span className="light">LMS Shopping Cart API</span>
           </h1>
+          <div>{company || 'Company not specified' }</div>
         </div>
       </header>
       <main className="page-container">{children}</main>
